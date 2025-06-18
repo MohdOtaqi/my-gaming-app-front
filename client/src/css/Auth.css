@@ -1,0 +1,96 @@
+.auth-wrapper {
+  min-height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}
+
+.auth-card {
+  background-color: #181818 !important;
+  color: white;
+  max-width: 420px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.auth-tabs .MuiTab-root {
+  color: #ccc !important;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.auth-tabs .Mui-selected {
+  color: #ffc107 !important;
+}
+
+.auth-tabs .MuiTabs-indicator {
+  background-color: #ffc107;
+}
+
+.auth-input .MuiFilledInput-root {
+  background-color: #2a2a2a !important;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-input .MuiFilledInput-root:hover {
+  background-color: #333 !important;
+}
+
+.auth-input .MuiInputLabel-root {
+  color: #aaa !important;
+}
+
+.auth-button.login {
+  margin-top: 1rem;
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button.login:hover {
+  background-color: #ffda5a !important;
+}
+
+.auth-button.signup {
+  margin-top: 1rem;
+  background-color: #28a745 !important;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button.signup:hover {
+  background-color: #34c759 !important;
+}
+
+.forgot-password-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.forgot-password {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffc107;
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.forgot-password:hover {
+  color: #ffdf5a;
+  text-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
+}
