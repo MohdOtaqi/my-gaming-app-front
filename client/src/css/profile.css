@@ -1,0 +1,75 @@
+.profile-wrapper {
+  background-color: #000;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.top-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.menu-button {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-picture {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.change-text {
+  color: #ffc107;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.form-control {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.form-control:focus {
+  background-color: #111;
+  color: #fff;
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.form-check-input {
+  background-color: #222;
+  border-color: #666;
+}
+
+.form-check-input:checked {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #000;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  color: #000;
+}
+
+.platform-icon img {
+  border-radius: 8px;
+  margin-bottom: 5px;
+}

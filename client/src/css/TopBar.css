@@ -1,0 +1,18 @@
+.topbar-wrapper {
+  background-color: #000;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.topbar-logo {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.topbar-menu {
+  font-size: 24px;
+  color: white;
+}

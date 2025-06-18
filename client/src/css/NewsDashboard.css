@@ -1,0 +1,126 @@
+.dashboard-wrapper {
+  background-color: #000;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-header {
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.menu-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1rem;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+.dashboard-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.dashboard-title {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.dashboard-container {
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 2rem;
+  flex-grow: 1;
+}
+
+.dashboard-button {
+  background-color: #ffc107;
+  color: #5d4037;
+  border: none;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.dashboard-subtitle {
+  color: white;
+  font-weight: bold;
+}
+
+/* ✅ Enhanced game boxes with styling and responsiveness */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.dashboard-box {
+  aspect-ratio: 1 / 1;
+  background: linear-gradient(145deg, #1a1a1a, #111);
+  border: 1px solid #333;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffc107;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(255, 193, 7, 0.1);
+}
+
+.dashboard-box:hover {
+  background: #222;
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 0 15px rgba(255, 193, 7, 0.3);
+}
+
+.placeholder-text {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.news-image {
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Slider caption background and text */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+.carousel-caption h5 {
+  color: #ffffff !important;
+}
+
+/* Make arrows brighter white and larger */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(5) invert(1);
+  width: 3rem;
+  height: 3rem;
+  background-size: 100% 100%;
+}
+
+.dashboard-box.active {
+  box-shadow: 0 0 24px 6px #FFD700, 0 0 0 2px #FFD700;
+  border: 2px solid #FFD700;
+  color: #FFD700;
+  background: #222;
+}

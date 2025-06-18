@@ -1,0 +1,79 @@
+.chatlist-wrapper {
+  background-color: #000;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatlist-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  overflow-y: auto;
+}
+
+/* Chat card layout */
+.chat-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.chat-card:hover {
+  background-color: #262626;
+  border: 1px solid #333;
+}
+
+/* Avatar + Info group */
+.chat-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  overflow: hidden;
+}
+
+.chat-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ffc107;
+}
+
+.chat-info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffc107;
+  margin-bottom: 0.15rem;
+}
+
+.chat-message {
+  font-size: 0.85rem;
+  color: #bbb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-timestamp {
+  font-size: 0.75rem;
+  color: #888;
+  white-space: nowrap;
+  margin-left: 1rem;
+  min-width: 70px;
+  text-align: right;
+}
